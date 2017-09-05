@@ -14,7 +14,18 @@
 
 	<name>Java 3D Javadocs</name>
 	<description>Javadocs for the SciJava fork of Java 3D.</description>
+	<url>https://javadoc.scijava.org/Java3D/</url>
 	<inceptionYear>2016</inceptionYear>
+	<organization>
+		<name>SciJava</name>
+		<url>http://www.scijava.org/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
@@ -38,6 +49,16 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>SciJava</name>
+			<subscribe>https://groups.google.com/group/scijava</subscribe>
+			<unsubscribe>https://groups.google.com/group/scijava</unsubscribe>
+			<post>scijava@googlegroups.com</post>
+			<archive>https://groups.google.com/group/scijava</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/scijava/java3d-javadoc</connection>
 		<developerConnection>scm:git:git@github.com:scijava/java3d-javadoc</developerConnection>
@@ -49,9 +70,16 @@
 		<url>https://github.com/scijava/java3d-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Java-3D-javadoc/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/scijava/java3d-javadoc/</url>
 	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison</license.copyrightOwners>
+		<license.projectName>SciJava libraries for scientific computing in Java.</license.projectName>
+	</properties>
 
 	<repositories>
 		<repository>
